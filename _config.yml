@@ -1,7 +1,17 @@
-google_analytics:
+google_analytics: G-29K7PJMPNZ
 
-title: Corban Thompson
-description: Corban's personal site
+title: Corban's Site
+tagline: All about me
+description: All about Corban Thompson
+author: Corban Thompson
+social:
+  name: Corban Thompson
+  links:
+    - https://www.instagram.com/corban.thompson/
+    - https://www.facebook.com/corban.thompson.1
+    - https://github.com/corbant
+    - https://www.linkedin.com/in/corban-thompson
+    - https://soundcloud.com/corbant25
 
 domain: corbant.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://corbant.github.io # the base hostname and protocol for your site, e.g. http://example.com
