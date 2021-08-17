@@ -11,3 +11,12 @@
     content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
 {% seo %}
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-29K7PJMPNZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-29K7PJMPNZ');
+</script>
