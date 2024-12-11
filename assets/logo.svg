@@ -13,16 +13,11 @@
      id="defs1" />
   <g
      id="layer1">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:303.156px;font-family:'Edge of the Galaxy';-inkscape-font-specification:'Edge of the Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3.67259;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
-       x="21.498964"
-       y="275.93994"
+    <path
+       d="m 43.110672,275.93994 h 64.909138 c 5.99503,0 11.1019,-2.07235 15.32063,-6.29108 4.21872,-4.21872 6.36509,-9.3256 6.36509,-15.32063 v -75.789 l -43.297431,21.61171 v 32.49157 H 64.796392 V 59.452803 H 86.408099 V 113.55608 L 129.70553,91.944377 V 37.767083 c 0,-5.921015 -2.14637,-11.027892 -6.36509,-15.320628 -4.21873,-4.144711 -9.3256,-6.291079 -15.32063,-6.291079 H 43.110672 c -5.995029,0 -11.101905,2.146368 -15.320628,6.365092 -4.218724,4.292736 -6.29108,9.399612 -6.29108,15.320628 V 254.32823 c 0,5.99503 2.072356,11.10191 6.29108,15.32063 4.218723,4.21873 9.325599,6.29108 15.320628,6.29108 z m 131.816608,0 h 43.29743 V 59.452803 h 39.81883 V 16.155376 H 135.10845 v 43.297427 h 39.81883 z"
        id="text4"
-       transform="scale(1.0222059,0.97827649)"><tspan
-         id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:303.156px;font-family:'Edge of the Galaxy';-inkscape-font-specification:'Edge of the Galaxy, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke-width:3.67259;stroke-linecap:butt;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;paint-order:normal"
-         x="21.498964"
-         y="275.93994">CT</tspan></text>
+       style="font-size:303.156px;font-family:'Edge of the Galaxy';-inkscape-font-specification:'Edge of the Galaxy, Normal';fill:#ffffff;stroke:#000000;stroke-width:3.67259;stroke-linejoin:round"
+       transform="scale(1.0222059,0.97827649)"
+       aria-label="CT" />
   </g>
 </svg>
