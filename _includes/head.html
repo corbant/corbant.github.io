@@ -3,20 +3,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <link rel="stylesheet" href="{{ "/dist/index.css" | relative_url }}">
-<link rel="shortcut icon" type="image/png" href={{ "/assets/favicon.ico" | relative_url }}>
-<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+<link rel="shortcut icon" type="image/png" href={{ "/assets/logo-32x32.png" | relative_url }}>
+<link rel="shortcut icon" type="image/png" href={{ "/assets/logo-196x196.png" | relative_url }}>
 
 <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
 <meta itemprop="description" name="description"
     content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
 {% seo %}
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WQF08W4EYD"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-WQF08W4EYD');
-</script>

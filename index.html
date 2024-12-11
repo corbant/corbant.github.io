@@ -3,200 +3,29 @@ layout: default
 ---
 
 <div class="">
-    <!--<div class="h-16 w-full">
-        <wired-link>Software</wired-link>
-        <wired-link>Music</wired-link>
-    </div>-->
-    <div class="absolute h-16 z-10 pt-5 pb-5 pr-8 float-right top-0 right-0 text-2xl w-72 justify-evenly flex flex-row">
-        <wired-link href="/">Home</wired-link>
-        <wired-link href="/software">Software</wired-link>
-        <wired-link href="/music">Music</wired-link>
-    </div>
+    <div class="h-screen w-screen absolute m-auto items-center justify-center flex flex-col text-center bg-gray-900">
+        <h1 class="text-5xl md:text-7xl font-bold p-2 text-white">CORBAN THOMPSON</h1>
+        <h2 class="text-xl md:text-3xl mt-2 mb-8 text-white">Cool Tagline Here</h2>
 
-
-    <div class="h-screen w-screen absolute m-auto items-center justify-center flex flex-col text-center bg-blue-50">
-        <wired-card elevation="2">
-            <h1 class="text-5xl md:text-7xl font-bold p-2" id="headline">Hello There, I'm Corban</h1>
-        </wired-card>
-        <h3 class="text-3xl md:text-5xl mt-4" id="subheadline">Your friendly neighboorhood 
-            <span class="txt-rotate" data-period="3000" data-rotate='[ "thinker", "creator", "daydreamer" ]'></span>
-        </h3>
-        <p class="my-6 text-xl" id="content">Always in search of the future</p>
-
-        <div class="text-3xl md:text-4xl space-x-6 sm:space-x-10">
+        <div class="text-3xl md:text-4xl space-x-6 sm:space-x-12 mt-4">
             <a href="https://www.instagram.com/corban.thompson/" target="_blank" rel="noopener noreferrer" id="instagram">
-                <wired-icon-button>
-                    <i class="fab fa-instagram"></i>
-                </wired-icon-button>
+                <i class="fab fa-square-instagram fa-lg text-white"></i>
             </a>
             <a href="https://www.facebook.com/corban.thompson.1" target="_blank" rel="noopener noreferrer" id="facebook">
-                <wired-icon-button>
-                    <i class="fab fa-facebook"></i>
-                </wired-icon-button>
+                <i class="fab fa-square-facebook fa-lg text-white"></i>
             </a>
             <a href="https://github.com/corbant" target="_blank" rel="noopener noreferrer" id="github">
-                <wired-icon-button>
-                    <i class="fab fa-github"></i>
-                </wired-icon-button>
+                <i class="fab fa-square-github fa-lg text-white"></i>
             </a>
             <a href="https://www.linkedin.com/in/corban-thompson" target="_blank" rel="noopener noreferrer" id="linkedin">
-                <wired-icon-button>
-                    <i class="fab fa-linkedin"></i>
-                </wired-icon-button>
+                <i class="fab fa-linkedin fa-lg text-white"></i>
             </a>
-            <a href="https://soundcloud.com/corbant25" target="_blank" rel="noopener noreferrer" id="soundcloud">
-                <wired-icon-button>
-                    <i class="fab fa-soundcloud"></i>
-                </wired-icon-button>
+            <a href="https://x.com/corbanthompson1" target="_blank" rel="noopener noreferrer" id="twitter">
+                <i class="fab fa-square-x-twitter fa-lg text-white"></i>
+            </a>
+            <a href="https://www.youtube.com/@corbanthompson4304" target="_blank" rel="noopener noreferrer" id="youtube">
+                <i class="fab fa-square-youtube fa-lg text-white"></i>
             </a>
         </div>
-
-        <wired-button onclick="openDialog()" class="mt-8"><p class="text-lg">Get In Touch</p></wired-button>
-
-        <div>
-            <h3 class="font-bold text-xl mt-4">Check out my latest post!</h3>
-        </div>
-
-        <wired-dialog elevation="3" hidden>
-            <div class="w-full h-auto bg-white rounded-lg shadow-lg p-8 md:max-w-sm md:mx-auto">
-                <h1 class="text-2xl font-bold mb-4">Get In Touch</h1>
-                <form action="https://send.pageclip.co/xgtvEzcrGQZM94BmUOyb4AlyzamjZOwU/contact-form" method="post"
-                    class="pageclip-form">
-                    <div class="mb-4">
-                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2 float-left">
-                            Name
-                        </label>
-                        <input type="text" name="name" id="name"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            placeholder="John Doe" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2 float-left">
-                            Email
-                        </label>
-                        <input type="email" name="email" id="email"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            placeholder="johndoe@example.com" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="subject" class="block text-gray-700 text-sm font-bold mb-2 float-left">
-                            Subject
-                        </label>
-                        <input type="text" name="subject" id="subject"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            placeholder="Hello!" required>
-                    </div>
-                    <div class="mb-4">
-                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2 float-left">
-                            Message
-                        </label>
-                        <textarea name="body" id="message"
-                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-                            placeholder="Hi, I want to talk about..." rows="6" required></textarea>
-                    </div>
-                    <div class="flex items-center justify-between">
-                        <button type="submit"
-                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline pageclip-form__submit button">
-                            <span>Send</span>
-                        </button>
-                        <wired-button onclick="closeDialog()">
-                            Cancel
-                        </wired-button>
-                    </div>
-                </form>
-            </div>
-        </wired-dialog>
-
-        <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-        
-        <script>
-            var form = document.getElementsByClassName('pageclip-form')[0];
-            window.Pageclip.form(form, {
-                onSubmit: function (event) { },
-                onResponse: function (error, response) {
-                    if (!error) {
-                        setTimeout(() => {
-                            closeDialog();
-                        }, 2000);
-                    }
-                    else {
-                        alert(error);
-                    }
-                },
-                successTemplate: '<span class="font-bold text-xl">Thank you for your message!</span>'
-            })
-        </script>
-
-        <script>
-            //dialogue stuff
-            const dialog = document.querySelector('wired-dialog');
-            
-            function openDialog() {
-                dialog.hidden = false;
-                dialog.open = true;
-            }
-            function closeDialog() {
-                dialog.open = false;
-            }
-        </script>
-
-        <script>
-            var TxtRotate = function (el, toRotate, period) {
-                    this.toRotate = toRotate;
-                    this.el = el;
-                    this.loopNum = 0;
-                    this.period = parseInt(period, 10) || 2000;
-                    this.txt = '';
-                    this.tick();
-                    this.isDeleting = false;
-                };
-
-                TxtRotate.prototype.tick = function () {
-                    var i = this.loopNum % this.toRotate.length;
-                    var fullTxt = this.toRotate[i];
-
-                    if (this.isDeleting) {
-                        this.txt = fullTxt.substring(0, this.txt.length - 1);
-                    } else {
-                        this.txt = fullTxt.substring(0, this.txt.length + 1);
-                    }
-
-                    this.el.innerHTML = '<span class="wrap"><u>' + this.txt + '</u></span>';
-
-                    var that = this;
-                    var delta = 300 - Math.random() * 100;
-
-                    if (this.isDeleting) { delta /= 2; }
-
-                    if (!this.isDeleting && this.txt === fullTxt) {
-                        delta = this.period;
-                        this.isDeleting = true;
-                    } else if (this.isDeleting && this.txt === '') {
-                        this.isDeleting = false;
-                        this.loopNum++;
-                        delta = 500;
-                    }
-
-                    setTimeout(function () {
-                        that.tick();
-                    }, delta);
-                };
-
-                window.onload = function () {
-                    var elements = document.getElementsByClassName('txt-rotate');
-                    for (var i = 0; i < elements.length; i++) {
-                        var toRotate = elements[i].getAttribute('data-rotate');
-                        var period = elements[i].getAttribute('data-period');
-                        if (toRotate) {
-                            new TxtRotate(elements[i], JSON.parse(toRotate), period);
-                        }
-                    }
-                    // INJECT CSS
-                    var css = document.createElement("style");
-                    css.type = "text/css";
-                    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-                    document.body.appendChild(css);
-                };
-        </script>
     </div>
 </div>
