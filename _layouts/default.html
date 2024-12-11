@@ -11,10 +11,10 @@
     </head>
 
     <header>
-        <div class="mx-auto px-6 z-50 absolute w-screen py-6">
+        <div class="mx-auto px-6 z-50 w-screen py-6 bg-gray-900 absolute">
             <nav class="border-gray-200">
                 <div class="container mx-auto flex flex-wrap items-center justify-between">
-                    <a href="#" class="flex">
+                    <a href="/" class="flex">
                         <img class="h-10 mr-3" src="/assets/logo.svg">
                     </a>
                     <button data-collapse-toggle="mobile-menu" type="button"
@@ -25,7 +25,7 @@
                     <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
                         <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                             <li>
-                                <a href="#"
+                                <a href="/"
                                     class="text-white hover:bg-black border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-gray-300 md:p-0">Home</a>
                             </li>
                             <li>
@@ -54,8 +54,11 @@
         </script>
     </header>
 
-    <body class="antialiased text-gray-900 min-h-screen">
+    <body class="antialiased min-h-screen">
         {{ content }}
+        <!-- Cloudflare Web Analytics -->
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+            data-cf-beacon='{"token": "4b607d3e205f475ebe68a023af52ba41"}'></script><!-- End Cloudflare Web Analytics -->
     </body>
 
 </html>
