@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="h-screen w-screen absolute items-center justify-center flex flex-col text-center bg-gray-900">
-    <h1 class="text-5xl md:text-7xl font-bold p-2 text-white">CORBAN THOMPSON</h1>
-    <h2 class="text-xl md:text-3xl mt-2 mb-8 text-white font-normal">Cool tagline here</h2>
+<div class="h-screen w-screen absolute items-center justify-center flex flex-col text-center bg-gray-900" id="background">
+    <h1 class="text-5xl md:text-7xl font-bold p-2 text-white z-20">CORBAN THOMPSON</h1>
+    <h2 class="text-xl md:text-3xl mt-2 mb-8 text-white font-normal z-20">Sparking ideas and finding solutions</h2>
 
-    <div class="text-3xl md:text-4xl space-x-6 sm:space-x-12 mt-4 mx-2">
+    <div class="text-3xl md:text-4xl space-x-4 sm:space-x-12 mt-4 mx-2 z-20">
         <a href="https://www.instagram.com/corban.thompson/" target="_blank" rel="noopener noreferrer" id="instagram">
             <i class="fab fa-square-instagram fa-lg text-white"></i>
         </a>
@@ -26,4 +26,12 @@ layout: default
             <i class="fab fa-square-youtube fa-lg text-white"></i>
         </a>
     </div>
+
+    <div id="particles-js" class="absolute w-full h-full"></div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<script>
+    particlesJS.load('particles-js', 'assets/particles.json')
+</script>
